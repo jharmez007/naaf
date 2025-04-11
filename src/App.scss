@@ -1,0 +1,45 @@
+.app__container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p__text {
+    font-family: var(--font-base);
+}
+
+.p2__text {
+  font-family: var(--font-family);
+}
+
+.app__input {
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: 2px solid transparent;
+}
+
+.app__div {
+  width: 200px;
+  border-bottom: 1px solid white;
+}
+.app__t-div {
+  width: 150px;
+  border-top: 1px solid black;
+}
+
+.app__h-div {
+  height: 25px;
+  border-right: 1px solid black;
+}
+
+.app__w-div {
+  width: 25px;
+  border-bottom: 1px solid black;
+}

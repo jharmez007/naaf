@@ -1,0 +1,82 @@
+input[type="radio"] {
+    display: none; /* Hide the default radio buttons */
+
+}
+
+.radio-label {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: #e89611;
+    background-color: white;
+    border: 1px solid #e89611;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]:checked + .radio-label {
+background-color: rgba(252, 192, 39, 0.2);
+color: #e89611;
+border: 1px solid #fcc027e5;
+}
+
+
+  
+/* Remove arrow (spinner) from number input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.currency-input {
+  display: flex;
+  align-items: center;
+}
+
+.currency-symbol {
+  padding: 10px 0 10px 10px;
+  background-color: white;
+  border: 1px solid #e89611;
+  border-right: none;
+}
+
+.currency-input input[type="text"] {
+  width: 100%;
+  padding: 10px 3px 10px;
+  border: 1px solid #e89611;
+  border-left: none;
+  box-sizing: border-box;
+  outline: none;
+  color: #e89611;
+}
+
+.email-input input[type="email"] {
+  width: 100%;
+  padding: 10px 8px 10px;
+  border: 1px solid #e89611;
+  box-sizing: border-box;
+  outline: none;
+  color: #e89611;
+}
+  
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fcc027e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.btn:hover {
+  background-color: #ffb700;
+}
+  

@@ -66,7 +66,7 @@ const DonationForm = () => {
         const paymentResponse = await initializePaymemt({
           amount,
           email,
-          callback_url: "https://www.igpinitiative.org/home",
+          callback_url: "https://naaf-gules.vercel.app/home",
         });
 
         if (paymentResponse?.status === 200) {

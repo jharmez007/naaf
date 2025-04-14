@@ -120,7 +120,7 @@ const Home = () => {
             <h4 className="font-bold p2__text text-4xl text-[#e89611]">THE BLOG</h4>
             <h2 className="font-bold p2__text text-6xl md:text-7xl">NEWS & UPDATES</h2>
           </div>
-          {sortedPost.length < 0 ? (
+          {sortedPost.length <= 0 ? (
               <div className="app__flex flex-col border  w-[100%] max-w-[1200px] px-6 py-60 text-center p__text">
                 <h3 className="font-extrabold text-3xl">Check back soon</h3>
                 <p>Once posts are published, you'll see them here.</p>
